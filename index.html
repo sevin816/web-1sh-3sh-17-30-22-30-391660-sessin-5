@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample-website</title>
+</head>
+<body>
+    <header>
+        <img src="./image/Screenshot 2026-09-30 182609.png" alt="banner" width="100%" height="70px">
+
+    </header>
+    <nav>
+        <p style="text-align: center;">
+           <a href="index.html">Home</a>
+           <a href="product.html">Products</a>
+           <a href="about.html">About</a>
+           <a href="contact.html">Contact</a>
+        </p>
+                 
+    </nav>
+    <hr>
+
+    <main>
+
+        <!-- معرفی فروشگاه -->
+        <div>
+             <h1 style="text-align: center;">Welcome to Rose Shop</h1>
+             <p style="text-align: center; color: blueviolet;">
+                 Discover <em>elegance</em>, quality and style in every product.
+             </p>
+         </div>
+         <hr>
+
+         <!-- معرفی محصولات -->
+        <div>
+            <h2>Featured Products</h2>
+            <p>
+             Explore our latest collection of luxury products.
+            </p>
+            <hr>
+  
+            <!-- perfume -->
+            <div>
+            <article class="product">
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStcSffDBiKNECrxxbQATJUEAJM4FpEQM1RjpG3Js0S7DfJ1Lur4LDOYJHW&s=10" alt="Perfume" width="150">
+                <figcaption>Luxury perfume</figcaption>
+                </figure>
+
+                <div>
+                    <h2>Perfume</h2>
+                    <p>
+                        Elegant perfume for everyday use.
+                    </p>
+                     
+                    <span>Price: <del>70$ </del> <span>>>></span> <mark> 50$</mark></span>
+                    <details>
+                        <summary>More information</summary>
+                        <p>
+                            Long-lasting luxury perfume with an elegant fragrance.
+                        </p>
+                    </details>
+                    <form action="order.html" method="post">
+                        <label for="perfume-quantity">Quantity:</label>
+                        <input type="number" id="perfume-quantity" name="perfume-quantity">
+                        <input type="submit" value="Order Now">
+                    </form>
+                </div>
+            </article>
+            </div>
+            <hr>
+
+            <!-- hanbag -->
+             <div>
+                <article class="product">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qcptwvGyHFja2OErrvMaLDY4QdWHVBbT0Z0znwd5tA&s=10" alt="hanbag" width="150">
+                    <figcaption>Luxury handbag</figcaption>
+                    </figure>
+
+                    <div>
+                        <h2>Handbag</h2>
+                        <p>
+                           Elegant Handbag for everyday use. 
+                        </p>
+
+                        <span>Price:75$</span>
+                        <details>
+                            <summary>More information</summary>
+                            <p>
+                                Elegant handbag made with high-quality materials.
+                            </p>
+                        </details>
+                      <form action="order.html" method="post">
+                        <label for="handbag-quantity">Quantity:</label>
+                        <input type="number" id="handbag-quantity" name="handbag-quantity">
+                        <input type="submit" value="Order Now">
+                    </form>
+
+                    </div>
+                </article>
+             </div>
+             <hr>
+
+             <!-- watch -->
+             <div>
+                <article class="product"> 
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQgq9lsQ5UPCei31_adSPhfIUM1Wb4rPkU5Y-VXsK0A&s=10" alt="watch" width="150">
+                         <figcaption>Luxury watch</figcaption>
+                    </figure>
+
+                    <div>
+                        <h2>Watch</h2>
+                        <p>
+                           Elegant Watch for everyday use. 
+                        </p>
+
+                        <span>Price:100$</span>
+                        <details>
+                            <summary>More information</summary>
+                            <p>
+                                Classic watch with a stylish and elegant design.
+                            </p>
+                        </details>
+                   <form action="order.html" method="post">
+                        <label for="watch-quantity">Quantity:</label>
+                        <input type="number" id="watch-quantity" name="watch-quantity">
+                        <input type="submit" value="Order Now">
+                    </form>
+
+                    </div>
+                </article>
+             </div>
+             <hr>
+
+        </div>
+
+        <div>
+          <h2>Product Categories</h2>
+
+          <ul>
+            <li>Beauty
+                <ul>
+                 <li>Perfume</li>
+                </ul>
+            </li>
+            <li>Fashion
+                <ul>
+                    <li>Handbag</li>
+                </ul>
+            </li>
+               
+            <li>Accessories
+                <ul>
+                    <li>Watch</li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- product table -->
+        <div>
+          <h2>Product Comparison</h2>
+          <table border="1">
+            <thead>
+                <tr>
+                    <th>product</th>
+                    <th>price</th>
+                    <th>category</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Perfume</td>
+                <td>$50</td>
+                <td>Beauty</td>
+            </tr>
+
+            <tr>
+                <td>Handbag</td>
+                <td>$75</td>
+                <td>Fashion</td>
+            </tr>
+
+            <tr>
+                <td>Watch</td>
+                <td>$100</td>
+                <td>Accessories</td>
+            </tr>
+            </tbody>
+                
+            </table>
+        </div>
+
+        <!-- aside -->
+        <aside>
+          <h2>Special Offer</h2>
+
+          <p>
+             Get <strong>20% off</strong>  on selected luxury products.
+          </p>
+
+          <p>
+             Free delivery is available for orders over $100.
+          </p>
+      </aside>
+        
+
+    </main>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <address>
+          Email: info@roseshop.com
+        <br>
+          Phone: +98 21 1234 5678
+       </address>
+        <p>© 2026 Rose Shop. All rights reserved.</p>
+
+    </footer>
+    
+</body>
+</html>
